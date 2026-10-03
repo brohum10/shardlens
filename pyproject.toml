@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shardlens"
+version = "0.1.0"
+description = "Offline weighted rendezvous hashing and replica migration planner"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+shardlens = "shardlens:main"
+
+[tool.setuptools]
+py-modules = ["shardlens"]

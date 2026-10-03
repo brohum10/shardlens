@@ -1,0 +1,11 @@
+{
+  "before": [{"id": "node-a"}, {"id": "node-b"}, {"id": "node-c"}],
+  "after": [{"id": "node-a"}, {"id": "node-b"}, {"id": "node-c"}, {"id": "node-d", "weight": 2}],
+  "replicas": 2,
+  "objects": [
+    {"key": "invoices/2026-01", "bytes": 8192},
+    {"key": "invoices/2026-02", "bytes": 16384},
+    {"key": "profiles/team-a", "bytes": 4096},
+    {"key": "profiles/team-b", "bytes": 4096}
+  ]
+}
